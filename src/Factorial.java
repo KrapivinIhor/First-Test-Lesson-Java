@@ -5,11 +5,11 @@ public class Factorial {
         Scanner scn = new Scanner(System.in);
         int k = scn.nextInt();
         int num=1;
+        System.out.println(num);
 
         for (int i = 1; i <= k ; i++  ) {
             num = num*i;
             System.out.println(num);
         }
-
     }
 }
